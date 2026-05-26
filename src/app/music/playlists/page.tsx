@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
 
-export default function MusicIndexPage() {
+export default function LegacyMusicPlaylistsPage() {
   redirect('/music/rankings');
 }
